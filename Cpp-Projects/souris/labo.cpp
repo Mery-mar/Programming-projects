@@ -4,9 +4,7 @@ using namespace std;
 
 class Souris
 {
-    /*****************************************************
-      Complétez le code à partir d'ici
-    ******************************************************/
+
 private:
     double poids;
     string couleur;
@@ -64,10 +62,7 @@ public:
 
     // Destructeur
     ~Souris() { cout << "Fin d'une souris..." << endl; }
-    /*******************************************
-     * Ne rien modifier après cette ligne.
-     *******************************************/
-
+    
 }; // fin de la classe Souris
 
 int main()
